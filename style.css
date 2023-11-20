@@ -1,0 +1,125 @@
+header {
+    /* background-color: antiquewhite; */
+    position: relative;
+    height: 8em;
+    width: 100%;
+    justify-content: center;
+}
+
+header .title {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.description {
+    /* background-color: aquamarine; */
+    position: relative;
+    width: 100%;
+    height: 40em;
+    justify-content: center;
+}
+
+.description .desc-content {
+    position: absolute;
+    /* background-color: bisque; */
+}
+
+.description .desc-content .desc-title {
+    /* background-color: azure; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.description .desc-content .desc-detail {
+    /* background-color: aqua; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-left: 17em;
+    margin-right: 17em;
+    text-align: justify;
+}
+
+.detail {
+    margin-top: 1em;
+}
+
+.topics {
+    /* background-color: brown; */
+    position: relative;
+    height: 16em;
+    width: 100%;
+    justify-content: center;
+}
+
+.topics .topics-content {
+    position: absolute;
+    /* background-color: bisque; */
+}
+
+.topics .topics-content .topics-title {
+    /* background-color: azure; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.topics .topics-content .topics-detail {
+    /* background-color: aqua; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-left: 17em;
+    margin-right: 17em;
+    text-align: justify;
+}
+
+.topics .topics-content .topics-detail .detail {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5em;
+}
+
+.topic-1 {
+    /* background-color: brown; */
+    position: relative;
+    height: 35em;
+    width: 100%;
+    justify-content: center;
+}
+
+.topic-1 .topic-1-content {
+    position: absolute;
+    /* background-color: bisque; */
+}
+
+.topic-1 .topic-1-content .topic-1-title {
+    /* background-color: azure; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 13em;
+    color: darkblue;
+}
+
+.topic-1 .topic-1-content .topic-1-detail {
+    /* background-color: aqua; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-left: 17em;
+    margin-right: 17em;
+    text-align: justify;
+}
+
