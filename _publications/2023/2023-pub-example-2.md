@@ -19,5 +19,5 @@ authors:
 links:
   Paper: https://dl.acm.org/doi/abs/10.1145/3579856.3590334
   Code: https://github.com/UQ-Trust-Lab/LoDen
-  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
