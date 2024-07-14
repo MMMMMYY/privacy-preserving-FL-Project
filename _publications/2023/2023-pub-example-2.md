@@ -1,21 +1,23 @@
 ---
-title:          "Pharetra Massa Massa Ultricies Mi Nisl Tincidunt"
-date:           2023-01-21 00:01:00 +0800
+title:          "LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks"
+date:           2023-07-10
 selected:       false
-pub:            "International Conference on Learning Representations (ICLR)"
+pub:            "ACM Asia Conference on Computer and Communications Security (ASIA CCS)"
 pub_date:       "2023"
 abstract: >-
-  Photo by Dessy Dimcheva on Unsplash. Viverra nibh cras pulvinar mattis nunc sed. Quam quisque id diam vel quam elementum pulvinar etiam. Ac felis donec et odio pellentesque. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. A pellentesque sit amet porttitor eget. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed.
+  Federated learning (FL) is a widely used distributed machine learning framework. However, recent studies have shown its susceptibility to poisoning membership inference attacks (MIA). In MIA, adversaries maliciously manipulate the local updates on selected samples and share the gradients with the server (i.e., poisoning). Since honest clients perform gradient descent on samples locally, an adversary can distinguish whether the attacked sample is a training sample based on observation of the change of the sample’s prediction. This type of attack exacerbates traditional passive MIA, yet the defense mechanisms remain largely unexplored.
+In this work, we first investigate the effectiveness of the existing server-side robust aggregation algorithms (AGRs), designed to counter general poisoning attacks, in defending against poisoning MIA. We find that they are largely insufficient in mitigating poisoning MIA, as it targets specific victim samples and has minimal impact on model performance, unlike general poisoning. Thus, we propose a new client-side defense mechanism, called LoDen, which leverages the clients’ unique ability to detect any suspicious privacy attacks. We theoretically quantify the membership information leaked to the poisoning MIA and provide a bound for this leakage in LoDen. We perform an extensive experimental evaluation on four benchmark datasets against poisoning MIA, comparing LoDen with six state-of-the-art server-side AGRs. LoDen consistently achieves missing rate in detecting poisoning MIA across all settings, and reduces the poisoning MIA success rate to in most cases. The code of LoDen is available at https://github.com/UQ-Trust-Lab/LoDen.
 
 cover:          assets/images/covers/cover2.jpg
 authors:
-  - Charles Green (MIT)*
-  - John Doe*
-  - Robert White
-  - James Wang
-  - Your Name#
+  - Mengyao Ma
+  - Yanjun Zhang
+  - Pathum Chamikara Mahawaga Arachchige
+  - Leo Yu Zhang
+  - Mohan Baruwal Chhetri
+  - Guangdong Bai
 links:
-  Paper: https://www.biorxiv.org
-  Code: https://github.com
+  Paper: https://dl.acm.org/doi/abs/10.1145/3579856.3590334
+  Code: https://github.com/UQ-Trust-Lab/LoDen
   Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
