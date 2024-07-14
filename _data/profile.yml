@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Mengyao Ma"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/UQ-300x200.png" alt="The University of Queensland" class="inline-badge"/></span> Ph.D. student, The University of Queensland'
+  - '<span class="no-break"><img src="assets/images/badges/UQ.png" alt="The University of Queensland" class="inline-badge"/></span> Ph.D. student, The University of Queensland'
 
 email: "mengyao.ma@uq.edu.au"
 # cv_link: link-to-your-cv-file
@@ -25,7 +25,7 @@ portrait_caption: >-
 
 education:
 - name: The university of Queensland
-  logo: assets/images/badges/UQ-300x200.png
+  logo: assets/images/badges/UQ.png
   position: M.S. in Data Science
   date: Feb. 2020 - Dec. 2021
 
