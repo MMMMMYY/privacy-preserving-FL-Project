@@ -21,9 +21,13 @@ short_bio: >-
 
 portrait_url: assets/images/photos/mengyao_ma.webp
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash.
+  Photo.
 
 education:
+- name: The University of Queensland
+  logo: assets/images/badges/UQ.png
+  position: Ph.D. student
+  date: Apr. 2022 - Now
 - name: The University of Queensland
   logo: assets/images/badges/UQ.png
   position: M.S. in Data Science
@@ -37,12 +41,10 @@ education:
 
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
+- name: Dean's Commendation for Academic Excellence.
   date: 2021
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
-footer_text: >-
-  <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
+#footer_text: >-
+  #<a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
